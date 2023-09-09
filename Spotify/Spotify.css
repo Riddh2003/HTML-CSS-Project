@@ -93,7 +93,7 @@
     margin: -670px 0px 0px 1300px;
 }
 .sp1:hover,.sp2:hover,.sp3:hover,.sp4:hover,.sp5:hover,.sp6:hover,.fc1:hover,.fc2:hover,.fc3:hover,.fc4:hover,.fc5:hover,.fc6:hover{
-    box-shadow: 10px 10px 25px 5px black;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.285);
     border-radius: 10px;
     width: 185px;
     height: 275px;
