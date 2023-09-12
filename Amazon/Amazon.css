@@ -5,14 +5,15 @@
         box-sizing: border-box;
     }
     .main{
-        background-color: silver;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
     }
     .search{
-        border: 1px solid rgb(9, 9, 18);
-        background-color: rgb(9, 9, 18);
-        height: 60px;
-        margin: -60px 0px 0px 0px;
-        position: fixed;
+        position: relative;
+        background: rgb(9, 9, 18);
+        width: 100vw;
+        height: 8vh;
     }
     #im{
         width: 130px;
@@ -145,14 +146,12 @@
 
     }
     .index{
-        border: 1px solid rgb(19, 38, 38);
+        position:relative;
+        border: solid rgb(19, 38, 38);
         background-color: rgb(19, 38, 38);
-        background-attachment: scroll;
-        height: 40px;
-        width: 1417px;
-        margin: 60px 0px 0px 0px;
+        width:100vw;
+        height: 5vh;
         font-size: 14px;
-        position:inherit;
         font-family: 'Noto Sans JP', sans-serif;
     }
     a{
@@ -195,11 +194,8 @@
         margin: 0px 0px 0px 10px;
     }
     .downside{
-        border: 1px solid rgba(239, 239, 239, 0.803);
-        background-color: rgba(239, 239, 239, 0.803);
-        margin: 0px 0px 0px 10px ;
-        height: 2400px;
-        width: 1397px;
+        border: 1rem solid linear-gradient(rgb(18, 186, 253),rgba(255, 255, 255, 0.694)) ;
+        background-color: linear-gradient(skyblue,white);
     }
     #primeimg{
         position: inherit;
